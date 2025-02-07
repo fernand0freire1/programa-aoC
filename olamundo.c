@@ -1,14 +1,12 @@
 #include <stdio.h>
-int main (){ 
-//sintaxe scanf 
-//scanf("formato1", "formato2, &variavel1 variavel 2 , ...);
-  printf ("Entre com sua dade\n");
-  scanf ("%d", &idade);
-  printf ("Idade: %d\n", idade);
-  printf ("Entre com a altura\n");
-  scanf ("%f, %altrura;);
-  printf ("Entra com a opcao\n");
-  scanf("%c,opcao);
-  printf ("%c", opcao);
+int main (){
 
+    double numeropreciso = 3.14155151615184976; 
+    long double numeromuitopreciso = 3.14155151615184976;
+
+    printf ("Número preciso: %.17f\n", numeropreciso);
+    printf("Número muito preciso: %.17f\n", numeromuitopreciso);
+
+
+    return 0;
 }
